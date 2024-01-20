@@ -14,7 +14,7 @@ const HeroSection = () => {
                 alignItems: "center"
             }}>
 
-                <Col span={12}>
+                <Col xl={12}>
 
                     <Typography style={{ color: "black", fontSize: "20px", fontWeight: 700, fontFamily: "Poppins" }}>
                         Discover the beauty of the tropics
@@ -53,68 +53,71 @@ const HeroSection = () => {
 
 
 
-            <Row style={{ paddingTop: "448px", }}>  <Col span={12}  >
+            <Row style={{ paddingTop: "448px", }}>
+                <Col xl={{ span: 12 }} lg={{ span: 12 }} md={{ span: 8 }} sm={{ span: 24 }} >
 
-                <div style={{ paddingLeft: "147px" }} >
-                    <div style={{
-                        width: "75%",
-                        display: "flex", alignItems: "center",
-                        marginRight: '16px',
-                        // backgroundColor: "red",
-                        paddingBlock: "25px",
-                        paddingLeft: "25px",
-                        paddingRight: "25px",
+                    <div style={{ paddingLeft: "147px" }} >
+                        <div style={{
+                            width: "100%",
+                            display: "flex", alignItems: "center",
+                            marginRight: '16px',
+                            // backgroundColor: "red",
+                            paddingBlock: "25px",
+                            paddingLeft: "25px",
+                            paddingRight: "25px",
 
-                    }}>
-                        <Image src={girlWithBag} preview={false} width={80} />
-                        <div>
-                            <Typography style={{
-                                fontSize: "18px", fontWeight
-                                    : 500, fontFamily: "roboto", paddingLeft: "10px"
-                            }}>Jenny Wilson</Typography>
-                            <Typography style={{ fontSize: "16px", lineHeight: "23px", paddingLeft: "10px" }}>Lorem ipsum dolor sit amet,<br />consectetur adipiscing...</Typography>
+                        }}>
+                            <Image src={girlWithBag} preview={false} width={80} />
+                            <div>
+                                <Typography style={{
+                                    fontSize: "18px",
+                                    fontWeight: 500,
+                                    fontFamily: "roboto",
+                                    paddingLeft: "10px"
+                                }}>Jenny Wilson</Typography>
+                                <Typography style={{ fontSize: "16px", lineHeight: "23px", paddingLeft: "10px" }}>Lorem ipsum dolor sit amet,<br />consectetur adipiscing...</Typography>
+                            </div>
+                        </div>
+
+                        <div style={{
+                            display: "flex", alignItems: "center",
+                            marginRight: '16px',
+                            // backgroundColor: "red",
+                            paddingBlock: "25px",
+                            paddingLeft: "25px",
+                            paddingRight: "25px",
+                            marginTop: "50px", width: "75%",
+                        }}>
+                            <Image src={girl2} preview={false} width={80} />
+                            <div>
+                                <Typography style={{
+                                    fontSize: "18px", fontWeight
+                                        : 500, fontFamily: "roboto", paddingLeft: "10px"
+                                }}>Jenny Wilson</Typography>
+                                <Typography style={{ fontSize: "16px", lineHeight: "23px", paddingLeft: "10px" }}>Lorem ipsum dolor sit amet,<br />consectetur adipiscing...</Typography>
+                            </div>
+                        </div>
+
+                        <div style={{
+                            display: "flex", alignItems: "center",
+                            // backgroundColor: "red",
+                            paddingBlock: "25px",
+                            paddingLeft: "25px",
+                            paddingRight: "25px",
+                            marginTop: "50px", width: "75%",
+                        }}>
+                            <Image src={girl3} alt="girl-with-bag" preview={false} width={80} />
+                            <div>
+                                <Typography style={{
+                                    fontSize: "18px", fontWeight: 500,
+                                    fontFamily: "roboto", paddingLeft: "10px"
+                                }}>Jenny Wilson</Typography>
+                                <Typography style={{ fontSize: "16px", lineHeight: "23px", paddingLeft: "10px" }}>Lorem ipsum dolor sit amet,<br />consectetur adipiscing...</Typography>
+                            </div>
                         </div>
                     </div>
-
-                    <div style={{
-                        display: "flex", alignItems: "center",
-                        marginRight: '16px',
-                        // backgroundColor: "red",
-                        paddingBlock: "25px",
-                        paddingLeft: "25px",
-                        paddingRight: "25px",
-                        marginTop: "50px", width: "75%",
-                    }}>
-                        <Image src={girl2} preview={false} width={80} />
-                        <div>
-                            <Typography style={{
-                                fontSize: "18px", fontWeight
-                                    : 500, fontFamily: "roboto", paddingLeft: "10px"
-                            }}>Jenny Wilson</Typography>
-                            <Typography style={{ fontSize: "16px", lineHeight: "23px", paddingLeft: "10px" }}>Lorem ipsum dolor sit amet,<br />consectetur adipiscing...</Typography>
-                        </div>
-                    </div>
-
-                    <div style={{
-                        display: "flex", alignItems: "center",
-                        // backgroundColor: "red",
-                        paddingBlock: "25px",
-                        paddingLeft: "25px",
-                        paddingRight: "25px",
-                        marginTop: "50px", width: "75%",
-                    }}>
-                        <Image src={girl3} alt="girl-with-bag" preview={false} width={80} />
-                        <div>
-                            <Typography style={{
-                                fontSize: "18px", fontWeight: 500,
-                                fontFamily: "roboto", paddingLeft: "10px"
-                            }}>Jenny Wilson</Typography>
-                            <Typography style={{ fontSize: "16px", lineHeight: "23px", paddingLeft: "10px" }}>Lorem ipsum dolor sit amet,<br />consectetur adipiscing...</Typography>
-                        </div>
-                    </div>
-                </div>
-            </Col>
-                <Col span={12} >
+                </Col>
+                <Col xl={{ span: 12 }} lg={{ span: 12 }} md={{ span: 24 }} sm={{ span: 24 }}>
 
                     <div style={{ float: "right" }} >
                         <Typography style={{ fontSize: "40px", fontWeight: 600, fontFamily: "inter" }}>Tropical Adventure
