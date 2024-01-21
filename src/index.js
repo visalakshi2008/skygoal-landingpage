@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import { Content, } from 'antd/es/layout/layout';
-import { Layout, Typography } from 'antd';
+import { Layout } from 'antd';
 
 
 import HeroSection from './components/HeroSection';
