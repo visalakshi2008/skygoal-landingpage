@@ -82,7 +82,7 @@ const HeroSection = () => {
                             <div>
                                 <Typography style={{
                                     fontSize: "18px",
-                                    fontWeight: 500,
+                                    fontWeight: 600,
                                     fontFamily: "roboto",
                                     paddingLeft: "10px"
                                 }}>Jenny Wilson</Typography>
@@ -105,7 +105,7 @@ const HeroSection = () => {
                             <div>
                                 <Typography style={{
                                     fontSize: "18px", fontWeight
-                                        : 500, fontFamily: "roboto", paddingLeft: "10px"
+                                        : 600, fontFamily: "roboto", paddingLeft: "10px"
                                 }}>Jenny Wilson</Typography>
                                 <Typography className='responsive-text' style={{ fontSize: "16px", lineHeight: "23px", paddingLeft: "10px" }}>Lorem ipsum dolor sit amet,<br />consectetur adipiscing...</Typography>
                             </div>
@@ -121,7 +121,7 @@ const HeroSection = () => {
                             <Image src={girl3} alt="girl-with-bag" preview={false} width={80} />
                             <div>
                                 <Typography style={{
-                                    fontSize: "18px", fontWeight: 500,
+                                    fontSize: "18px", fontWeight: 600,
                                     fontFamily: "roboto", paddingLeft: "10px"
                                 }}>Jenny Wilson</Typography>
                                 <Typography className='responsive-text' style={{

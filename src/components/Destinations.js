@@ -103,15 +103,29 @@ const Destinations = () => {
           >
             {destinationsData.map((destination, index) => (
               <div key={index} style={{ width: '100%' }}>
-                <div style={{ backgroundColor: '#F2F2F2', padding: '16px', width: '100%' }}>
+                <div style={{ backgroundColor: '#yellow', padding: '16px', width: '100%', }}>
                   <Image src={destination.image} alt="destination-image" preview={false} width="100%" height="100%" />
-                  <Typography style={{ fontSize: '20px', fontWeight: 700, paddingBlock: '12px', backgroundColor: '#f2f2f2' }}>
+                  <Typography style={{
+                    fontSize: '20px', fontWeight: 700, paddingBlock: '12px',
+                    backgroundColor: '#f2f2f2',
+
+                    borderRadius: "8px",
+                    paddingRight: "10px",
+                    paddingLeft: "10px"
+                  }}>
                     {destination.title}
+                    <div style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+
+                    }}>
+                      <Typography style={{
+                        fontSize: '14px', fontWeight: 500, borderRadius: "8px",
+
+                      }}>{destination.location}</Typography>
+                      <MoreOutlined />
+                    </div>
                   </Typography>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#f2f2f2' }}>
-                    <Typography style={{ fontSize: '14px', fontWeight: 500 }}>{destination.location}</Typography>
-                    <MoreOutlined />
-                  </div>
                 </div>
               </div>
             ))}
@@ -132,12 +146,14 @@ const Destinations = () => {
             }}
           >
             <Button
+
               style={{
-                backgroundColor: "none",
+
                 border: "none",
                 justifyContent: "center",
                 alignItems: "center",
-                display: "flex"
+                display: "flex",
+
               }}
             >
               <Image src={leftArrow} alt="left-arrow" onClick={handlePrev} preview={false} />

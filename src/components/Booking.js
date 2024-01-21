@@ -81,7 +81,8 @@ const Booking = () => {
                                         </Form.Item>
                                     </div>
                                     <div style={{ display: 'flex', gap: '20px' }}>
-                                        <Form.Item label="STAR" style={{ fontWeight: 500, fontSize: '12px' }}>
+                                        <Form.Item label="STAR"
+                                            style={{ fontWeight: 500, fontSize: '12px' }}>
                                             <Button.Group>
                                                 <Button style={{
                                                     backgroundColor: '#EBEBEB',
@@ -125,7 +126,8 @@ const Booking = () => {
                                                 </Button>
                                             </Button.Group>
                                         </Form.Item>
-                                        <Form.Item label="ROOMS" style={{ fontWeight: 500, fontSize: '12px' }}>
+                                        <Form.Item label="ROOMS"
+                                            style={{ fontWeight: 500, fontSize: '12px' }}>
                                             <Button.Group>
                                                 <Button style={{
                                                     backgroundColor: '#EBEBEB',
