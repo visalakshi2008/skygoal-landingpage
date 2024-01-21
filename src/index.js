@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Layout, Typography, Button } from 'antd';
-
 import reportWebVitals from './reportWebVitals';
 import { Content, } from 'antd/es/layout/layout';
+import { Layout, Typography, Button } from 'antd';
+
+
 import HeroSection from './components/HeroSection';
 import Destinations from './components/Destinations';
 import Discounts from './components/Discounts';
@@ -13,7 +14,6 @@ import Footer from './components/Footer';
 import CustomHeader from './components/CustomHeader';
 
 const { Header } = Layout;
-// const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,10 +27,10 @@ root.render(
         <CustomHeader />
       </Header>
 
-      <Layout style={{ paddingLeft: "119px", paddingRight: "119px" }}>
+      <Layout style={{ width: "80%", margin: "0 auto" }}>
         <Content>
           <HeroSection />
-          <Destinations style={{ paddingLeft: "0px", paddingRight: "0px" }} />
+          <Destinations />
           <Discounts />
           <Booking />
           <Testimonials />

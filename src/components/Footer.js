@@ -1,5 +1,5 @@
-import { Col, Row, Typography } from "antd";
 import React from "react";
+import { Col, Row, Typography } from "antd";
 
 const Footer = () => {
     return (
@@ -37,17 +37,128 @@ const Footer = () => {
                         justifyContent: "center",
                         gap: "38px"
 
-                    }}><Typography style={{ fontFamile: "inter", fontSize: "16px" }}>Privacy Policy</Typography>
-                        <Typography style={{ fontFamile: "inter", fontSize: "16px" }}>Terms Of Use</Typography>
-                        <Typography style={{ fontFamile: "inter", fontSize: "16px" }}>Sales and Refunds</Typography>
-                        <Typography style={{ fontFamile: "inter", fontSize: "16px" }}>Legal</Typography>
-                        <Typography style={{ fontFamile: "inter", fontSize: "16px", fontWeight: 600 }}>About</Typography>
-                        <Typography style={{ fontFamile: "inter", fontSize: "16px", fontWeight: 600 }}>Schedules</Typography>
-                        <Typography style={{ fontFamile: "inter", fontSize: "16px", fontWeight: 600 }}>Pricing</Typography>
-                        <Typography style={{ fontFamile: "inter", fontSize: "16px", fontWeight: 600 }}>Membership</Typography>
-                        <Typography style={{ fontFamile: "inter", fontSize: "16px", fontWeight: 600 }}>Joins</Typography></div>
+                    }}>
 
-
+                        <Row gutter={[16, 16]}>
+                            <Col
+                                xs={12}
+                                sm={24}
+                                md={12}
+                                lg={8}
+                                xl={6}>
+                                <Typography style={{
+                                    fontFamily: 'inter',
+                                    fontSize: '16px', fontWeight: 600
+                                }}>Privacy Policy</Typography>
+                            </Col>
+                            <Col
+                                xs={12}
+                                sm={24}
+                                md={12}
+                                lg={8}
+                                xl={6}
+                            >
+                                <Typography style={{
+                                    fontFamily: 'inter',
+                                    fontSize: '16px', fontWeight: 600
+                                }}>Terms Of Use</Typography>
+                            </Col>
+                            <Col
+                                xs={12}
+                                sm={24}
+                                md={12}
+                                lg={8}
+                                xl={6}
+                            >
+                                <Typography style={{
+                                    fontFamily: 'inter',
+                                    fontSize: '16px', fontWeight: 600
+                                }}>Sales and Refunds</Typography>
+                            </Col>
+                            <Col
+                                xs={12}
+                                sm={24}
+                                md={12}
+                                lg={8}
+                                xl={6}
+                            >
+                                <Typography style={{
+                                    fontFamily: 'inter',
+                                    fontSize: '16px', fontWeight: 600
+                                }}>Legal</Typography>
+                            </Col>
+                            <Col
+                                xs={12}
+                                sm={12}
+                                md={12}
+                                lg={8}
+                                xl={6}
+                            >
+                                <Typography style={{
+                                    fontFamily: 'inter',
+                                    fontSize: '16px', fontWeight: 600
+                                }}>
+                                    About
+                                </Typography>
+                            </Col>
+                            <Col
+                                xs={12}
+                                sm={12}
+                                md={12}
+                                lg={8}
+                                xl={6}
+                            >
+                                <Typography style={{
+                                    fontFamily: 'inter',
+                                    fontSize: '16px', fontWeight: 600
+                                }}>
+                                    Schedules
+                                </Typography>
+                            </Col>
+                            <Col
+                                xs={12}
+                                sm={12}
+                                md={12}
+                                lg={8}
+                                xl={6}
+                            >
+                                <Typography style={{
+                                    fontFamily: 'inter',
+                                    fontSize: '16px', fontWeight: 600
+                                }}>
+                                    Pricing
+                                </Typography>
+                            </Col>
+                            <Col
+                                xs={12}
+                                sm={12}
+                                md={12}
+                                lg={8}
+                                xl={6}
+                            >
+                                <Typography style={{
+                                    fontFamily: 'inter',
+                                    fontSize: '16px', fontWeight: 600
+                                }}>
+                                    Membership
+                                </Typography>
+                            </Col>
+                            <Col
+                                xs={12}
+                                sm={12}
+                                md={12}
+                                lg={8}
+                                xl={6}
+                            >
+                                <Typography style={{
+                                    fontFamily: 'inter',
+                                    fontSize: '16px', fontWeight: 600
+                                }}>
+                                    Joins
+                                </Typography>
+                            </Col>
+                        </Row>
+                    </div>
                 </Col>
             </Row>
         </>
