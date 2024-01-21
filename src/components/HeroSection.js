@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col, Image, Typography, Button } from 'antd'
-import '../custom.css'
+
+import "../../src/styles/custom.module.css"
 import boyImage from "../images/boyWithBooks.png"
 import girlWithBag from "../images/girlWithBag.png"
 import girl2 from "../images/girl2.png"
