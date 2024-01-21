@@ -6,7 +6,9 @@ import {
     MailOutlined,
     UserAddOutlined,
     DollarOutlined,
-    MenuOutlined
+    MenuOutlined,
+    UserOutlined,
+    PhoneOutlined
 } from '@ant-design/icons';
 import { Button, Drawer, Typography, Row, Col } from 'antd';
 
@@ -40,16 +42,16 @@ const CustomHeader = () => {
             icon: <InfoCircleOutlined style={{ color: "#F27A44", paddingRight: "10px" }} />
         },
         {
-            label: 'Contact', key: 'Schedules',
-            icon: <MailOutlined style={{ color: "#F27A44", paddingRight: "10px" }} />
+            label: 'Schedules', key: 'Schedules',
+            icon: <PhoneOutlined style={{ color: "#F27A44", paddingRight: "10px" }} />
         },
         {
-            label: 'Pricing', key: 'Pricing',
+            label: 'Membership', key: 'Pricing',
+            icon: <UserOutlined style={{ color: "#F27A44", paddingRight: "10px" }} />
+        },
+        {
+            label: 'Pricing', key: 'Membership',
             icon: <DollarOutlined style={{ color: "#F27A44", paddingRight: "10px" }} />
-        },
-        {
-            label: 'Signup', key: 'Membership',
-            icon: <UserAddOutlined style={{ color: "#F27A44", paddingRight: "10px" }} />
         },
     ];
 
