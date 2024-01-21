@@ -4,6 +4,7 @@ import slide1 from "../images/slide1.png"
 import slide2 from "../images/slide2.png"
 import slide3 from "../images/slide3.png"
 import slide4 from "../images/slide4.png"
+import Typography from 'antd/es/typography/Typography';
 
 const contentStyle = {
     height: '160px',
@@ -21,7 +22,9 @@ const carouselSettings = {
 const CustomCarousel = () => {
     return (
         <>
+
             <Carousel autoplay  {...carouselSettings}>
+
                 <div style={{ display: "flex" }}>
 
                     <Image src={slide2} alt="image1" preview={false} width="20%  " />

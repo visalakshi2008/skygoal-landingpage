@@ -70,7 +70,14 @@ const Destinations = () => {
   return (
     <>
       <Row gutter={[16, 16]} style={{ marginTop: '50px' }}>
-        <Col span={24}>
+
+        <Col span={24} >
+          <Typography style={{
+
+            fontWeight: 500,
+            fontSize: "40px",
+            paddingTop: "200px"
+          }}>Our Destinations</Typography>
           <Carousel
             autoplay
             slidesToShow={4}
@@ -92,15 +99,16 @@ const Destinations = () => {
             prevArrow={<Image src={leftArrow} alt="left-arrow" onClick={handlePrev} />}
             ref={carouselRef}
             afterChange={handleAfterChange}
+            style={{ paddingBottom: "70px" }}
           >
             {destinationsData.map((destination, index) => (
               <div key={index} style={{ width: '100%' }}>
                 <div style={{ backgroundColor: '#F2F2F2', padding: '16px', width: '100%' }}>
                   <Image src={destination.image} alt="destination-image" preview={false} width="100%" height="100%" />
-                  <Typography style={{ fontSize: '20px', fontWeight: 700, paddingBlock: '12px' }}>
+                  <Typography style={{ fontSize: '20px', fontWeight: 700, paddingBlock: '12px', backgroundColor: '#f2f2f2' }}>
                     {destination.title}
                   </Typography>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#fff' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#f2f2f2' }}>
                     <Typography style={{ fontSize: '14px', fontWeight: 500 }}>{destination.location}</Typography>
                     <MoreOutlined />
                   </div>

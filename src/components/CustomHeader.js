@@ -188,7 +188,12 @@ const CustomHeader = () => {
             >
                 <div style={{ display: 'flex', flexDirection: 'column', }}>
                     {menuItems.map((item) => (
-                        <Typography key={item.key} style={{ color: '#F27A44', fontWeight: 500, marginBottom: '16px', }}>
+                        <Typography key={item.key} style={{
+                            color: '#F27A44',
+                            fontWeight: 500,
+                            marginBottom: '16px',
+                            fontFamily: "inter"
+                        }}>
                             {item.icon} {item.label}
                         </Typography>
                     ))}

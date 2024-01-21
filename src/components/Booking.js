@@ -2,6 +2,7 @@ import React from 'react';
 import { MinusOutlined, PlusOutlined } from '@ant-design/icons';
 import { Image, Row, Col, Typography, Button, Input, Form, DatePicker } from 'antd';
 import girlWithBag from '../images/girlWithBag.png';
+import 'typeface-roboto';
 
 const Booking = () => {
     const [form] = Form.useForm();
@@ -32,9 +33,9 @@ const Booking = () => {
                             >
                                 <Typography
                                     style={{
-                                        fontSize: '24px',
+                                        fontSize: '32px',
                                         fontWeight: 900,
-                                        fontFamily: 'inter',
+                                        fontFamily: 'Roboto',
                                         color: '#000',
                                     }}
                                 >
@@ -42,8 +43,9 @@ const Booking = () => {
                                 </Typography>
                                 <Typography
                                     style={{
-                                        fontSize: '16px',
-                                        color: '#1f2027',
+                                        fontSize: '18px',
+                                        color: '#282828',
+                                        fontWeight: 400
                                     }}
                                 >
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -55,11 +57,14 @@ const Booking = () => {
                                 }}
                             >
                                 <Form form={form} layout="vertical">
-                                    <Form.Item style={{ fontWeight: 500, fontSize: '12px' }} label="CITY">
-                                        <Input placeholder="Placeholder" style={{ paddingBlock: '10px' }} />
+                                    <Form.Item style={{ fontWeight: 500, fontSize: '12px', fontFamily: "roboto", }} label="CITY">
+                                        <Input placeholder="Placeholder" style={{
+                                            paddingBlock: '12px',
+
+                                        }} />
                                     </Form.Item>
                                     <div style={{ display: 'flex', gap: '30px' }}>
-                                        <Form.Item label="ARRIVAL" style={{ fontWeight: 500, fontSize: '12px' }}>
+                                        <Form.Item label="ARRIVAL" style={{ fontWeight: 500, fontSize: '12px', fontFamily: "Roboto" }}>
                                             <DatePicker
                                                 onChange={onChange}
                                                 placeholder="10 October"

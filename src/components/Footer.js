@@ -14,7 +14,7 @@ const Footer = () => {
                 }}>
 
                     <Typography style={{
-                        fontWeight: 600,
+                        fontWeight: 400,
                         fontSize: "40px",
                         fontFamily: "inter"
                     }}>
@@ -48,7 +48,7 @@ const Footer = () => {
                                 xl={6}>
                                 <Typography style={{
                                     fontFamily: 'inter',
-                                    fontSize: '16px', fontWeight: 600
+                                    fontSize: '16px', fontWeight: 400
                                 }}>Privacy Policy</Typography>
                             </Col>
                             <Col
@@ -60,7 +60,7 @@ const Footer = () => {
                             >
                                 <Typography style={{
                                     fontFamily: 'inter',
-                                    fontSize: '16px', fontWeight: 600
+                                    fontSize: '16px', fontWeight: 400
                                 }}>Terms Of Use</Typography>
                             </Col>
                             <Col
@@ -72,7 +72,7 @@ const Footer = () => {
                             >
                                 <Typography style={{
                                     fontFamily: 'inter',
-                                    fontSize: '16px', fontWeight: 600
+                                    fontSize: '16px', fontWeight: 400
                                 }}>Sales and Refunds</Typography>
                             </Col>
                             <Col
@@ -84,7 +84,7 @@ const Footer = () => {
                             >
                                 <Typography style={{
                                     fontFamily: 'inter',
-                                    fontSize: '16px', fontWeight: 600
+                                    fontSize: '16px', fontWeight: 400
                                 }}>Legal</Typography>
                             </Col>
                             <Col
@@ -96,7 +96,7 @@ const Footer = () => {
                             >
                                 <Typography style={{
                                     fontFamily: 'inter',
-                                    fontSize: '16px', fontWeight: 600
+                                    fontSize: '16px', fontWeight: 700
                                 }}>
                                     About
                                 </Typography>
@@ -110,7 +110,7 @@ const Footer = () => {
                             >
                                 <Typography style={{
                                     fontFamily: 'inter',
-                                    fontSize: '16px', fontWeight: 600
+                                    fontSize: '16px', fontWeight: 700
                                 }}>
                                     Schedules
                                 </Typography>
@@ -124,7 +124,7 @@ const Footer = () => {
                             >
                                 <Typography style={{
                                     fontFamily: 'inter',
-                                    fontSize: '16px', fontWeight: 600
+                                    fontSize: '16px', fontWeight: 700
                                 }}>
                                     Pricing
                                 </Typography>
@@ -138,7 +138,7 @@ const Footer = () => {
                             >
                                 <Typography style={{
                                     fontFamily: 'inter',
-                                    fontSize: '16px', fontWeight: 600
+                                    fontSize: '16px', fontWeight: 700
                                 }}>
                                     Membership
                                 </Typography>
@@ -152,7 +152,7 @@ const Footer = () => {
                             >
                                 <Typography style={{
                                     fontFamily: 'inter',
-                                    fontSize: '16px', fontWeight: 600
+                                    fontSize: '16px', fontWeight: 700
                                 }}>
                                     Joins
                                 </Typography>

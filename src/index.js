@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import { Content, } from 'antd/es/layout/layout';
-import { Layout } from 'antd';
+import { Layout, Typography } from 'antd';
 
 
 import HeroSection from './components/HeroSection';
@@ -24,6 +24,7 @@ root.render(
         justifyContent: 'space-between', alignItems: 'center',
         padding: '0 20px'
       }}>
+
         <CustomHeader />
       </Header>
 
