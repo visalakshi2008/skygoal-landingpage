@@ -3,8 +3,6 @@ import React, { useState, useEffect } from 'react';
 import {
     HomeOutlined,
     InfoCircleOutlined,
-    MailOutlined,
-    UserAddOutlined,
     DollarOutlined,
     MenuOutlined,
     UserOutlined,
